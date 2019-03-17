@@ -178,26 +178,12 @@ h1 span:nth-of-type(2) {
   font-size: 20px;
 }
 
-.about {
-  background-image: none;
-  background-color: #f1f1f1;
-  color: #000;
-  align-items: flex-start;
-  height: 70vh;
-}
-
-.aboutme {
-  color: deeppink;
-  font-size: 30px;
-}
-
 .section-3 {
   display: flex;
   align-items: center;
   flex-direction: column;
   background: #232323;
-  height: 71vh;
-  padding-bottom: 4em;
+  padding-bottom: 1em;
 }
 .section-3 h1 {
   color: white;
@@ -415,11 +401,6 @@ h1 span:nth-of-type(2) {
     display: flex;
     flex-wrap: wrap;
   }
-
-  .section-3 {
-    height: 67vh;
-    padding-bottom: 0;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -474,10 +455,6 @@ h1 span:nth-of-type(2) {
   .fbox {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .section-3 {
-    height: 65vh;
   }
 
   .section-3 p {
