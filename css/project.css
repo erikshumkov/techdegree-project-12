@@ -29,7 +29,7 @@ a {
   justify-content: center;
   align-items: center;
   background: url('../images/develop.jpg');
-  background-color: rgba(0,0,0, .60);
+  background-color: rgba(0, 0, 0, 0.6);
   background-size: cover;
   background-blend-mode: multiply;
   background-attachment: fixed;
@@ -71,7 +71,7 @@ h1 span:nth-of-type(2) {
   width: 240px;
   margin: 10px auto 60px auto;
   position: relative;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0, .5);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -91,11 +91,11 @@ h1 span:nth-of-type(2) {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0,0,0, .8);
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
   display: block;
   transform: translateX(240px);
-  transition: .5s opacity ease;
+  transition: 0.5s opacity ease;
 }
 
 .top {
@@ -107,7 +107,8 @@ h1 span:nth-of-type(2) {
 .online-img,
 .api-img,
 .guide-img,
-.wheel-img,
+.gallery-img,
+.todo-img,
 .dash-img {
   width: 240px;
   height: 200px;
@@ -208,7 +209,7 @@ h1 span:nth-of-type(2) {
   border-radius: 5px;
   height: 60px;
   width: 210px;
-  transition: .6s all ease;
+  transition: 0.6s all ease;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -234,7 +235,7 @@ h1 span:nth-of-type(2) {
   right: 0;
   margin: 25px 12px 0 0;
   padding: 10px 11px;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   z-index: 1001;
 }
 .menu-btn:hover {
@@ -243,7 +244,7 @@ h1 span:nth-of-type(2) {
 .menu-btn i {
   transform: rotate(90deg);
   color: white;
-  transition: .2s all ease;
+  transition: 0.2s all ease;
 }
 
 .main-menu {
@@ -268,7 +269,7 @@ h1 span:nth-of-type(2) {
   position: relative;
   text-align: center;
   padding: 30px 0;
-  transition: .3s transform ease;
+  transition: 0.3s transform ease;
 }
 
 .menu-ul li a {
@@ -277,11 +278,11 @@ h1 span:nth-of-type(2) {
   font-family: 'Roboto', sans-serif;
   font-size: 57px;
   background: transparent;
-  transition: .2s background ease;
+  transition: 0.2s background ease;
 }
 
 .menu-ul li a:hover {
-  background: rgba(0,0,0, .10);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .menu-ul li:active {
@@ -352,7 +353,7 @@ h1 span:nth-of-type(2) {
 }
 
 .social svg {
-  transition: .5s all ease;
+  transition: 0.5s all ease;
 }
 
 .mail,
@@ -360,7 +361,7 @@ h1 span:nth-of-type(2) {
 .github,
 .instagram,
 .facebook {
-  transition: .3s background ease;
+  transition: 0.3s background ease;
 }
 
 .linkedin:hover,
@@ -428,10 +429,12 @@ h1 span:nth-of-type(2) {
     font-size: 20px;
   }
   .menu-ul li a:hover {
-    background: rgba(0,0,0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
   }
 
-  .fa-heart, .fa-briefcase, .fa-user {
+  .fa-heart,
+  .fa-briefcase,
+  .fa-user {
     display: none;
   }
 
@@ -474,18 +477,18 @@ h1 span:nth-of-type(2) {
 }
 
 .curtain {
-  animation: curtain .2s forwards ease;
+  animation: curtain 0.2s forwards ease;
 }
 
 .curtainReverse {
-  animation: curtainReverse .4s forwards ease;
+  animation: curtainReverse 0.4s forwards ease;
 }
 
 .slide {
-  animation: .6s slide forwards;
+  animation: 0.6s slide forwards;
 }
 .slideBack {
-  animation: .6s slideBack forwards;
+  animation: 0.6s slideBack forwards;
 }
 
 /* Keyframes animations */
@@ -514,13 +517,13 @@ h1 span:nth-of-type(2) {
 @keyframes bounce {
   0% {
     opacity: 0;
-    transform: scale(.7);
+    transform: scale(0.7);
   }
   40% {
     transform: scale(1.2);
   }
   80% {
-    transform: scale(.9);
+    transform: scale(0.9);
   }
   100% {
     transform: scale(1);
